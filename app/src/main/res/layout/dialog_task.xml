@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@color/todo_background_todo_app"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="@string/placerHolderEdit"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupCat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdBusiness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/business"
+            android:textColor="@color/white"
+            />
+
+        <RadioButton
+            android:id="@+id/rdPersonal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/todo_personal_category"
+            android:checked="true"
+            android:text="@string/personal"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rdOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/todo_other_category"
+            android:checked="true"
+            android:text="@string/others"
+            android:textColor="@color/white" />
+
+    </RadioGroup>
+
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddTask"
+        android:backgroundTint="@color/todo_accent"
+        android:text="@string/createTask"
+        android:textAllCaps="true"
+        />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TODOAppKotlin</string>
+    <string name="title_app">todo app</string>
+    <string name="categories">Categorias</string>
+    <string name="todo_task">Tareas</string>
+    <string name="placerHolderEdit">Añade una tarea...</string>
+
+    <string name="business">Negocios</string>
+    <string name="personal">Personal</string>
+    <string name="others">Otros</string>
+    <string name="createTask">Crear Tarea</string>
+
+</resources>
